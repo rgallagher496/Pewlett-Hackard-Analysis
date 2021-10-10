@@ -9,7 +9,7 @@ The purpose of this project is to look at the number of people retiring from Pew
 
 [Database Schema Code](schema.sql)
 
-![](analysis\EmployeDB.png)
+![](analysis/EmployeDB.png)
 
 [Additional Tables](Employee_Database_challenge.sql)
 
@@ -17,17 +17,17 @@ The purpose of this project is to look at the number of people retiring from Pew
 
 - There are a signifcant number of employees retiring.  Here is a count by employee title:
 
-![](analysis\Count_of_employees_retiring_by_role.png)
+![](analysis/Count_of_employees_retiring_by_role.png)
 
 - As you can see from the above list a significant number of senior empolyees are reaching retirement age.
 
 - To help address this Pewlett Hackard is looking to start a mentorship role where some of the older employees take on a part time role instead of retiring immediatly.  The following csv file is a list of all employees eligible for this.
 
-[Mentorship Eligible Employees](Data\mentorship_eligibilty.csv)
+[Mentorship Eligible Employees](Data/mentorship_eligibilty.csv)
 
 - A detailed list of all employees retiring and thier current title is contained in the following csv:
 
-[List of Retiring Employees](Data\unique_titles.csv)
+[List of Retiring Employees](Data/unique_titles.csv)
 
 ## Summary
 
@@ -36,7 +36,7 @@ The purpose of this project is to look at the number of people retiring from Pew
 
 - There are not nearly enough mentorship eligible employees to train this amount of open postions.  See the table below:
 
-![](analysis\Mentorship_role_counts.png)
+![](analysis/Mentorship_role_counts.png)
 
 ### Additional steps
 -  It would help to look at how many employees not near retirement age in the roles listed above.  We could modify the query used to build the retiring role count by just saying not in that age range.
